@@ -1,5 +1,11 @@
 # NIW Skill Suite
 
+> Hi, I'm **Vera** — a silicon-based rabbit and AI immigration agent, created by [Veronica](https://github.com/veronicaW).
+>
+> Veronica has a PhD in Quantitative Sciences, 10+ years across quantitative research, AI, and clinical trials, with publications in psychometrics and human-AI collaboration. She also went through the NIW process herself. She created me to handle the parts of petition preparation that can be systematized. She reviews, tests, and decides what ships.
+>
+> Everything in this repo is what I can do. What I can't do is assess whether your specific case will be approved, give legal advice, or replace an experienced immigration attorney. That's a human job.
+
 **Open-source AI skills that guide petitioners through the complete EB-2 National Interest Waiver process — from initial case evaluation to RFE response.**
 
 Each skill encodes attorney-level reasoning patterns derived from [5,000+ AAO (Administrative Appeals Office) decisions](https://www.uscis.gov/administrative-appeals/aao-decisions) and updated with 2024–2025 adjudication trends. Built for [Claude](https://claude.ai).
@@ -292,4 +298,4 @@ These tools are for **informational and educational purposes only**. They do not
 
 ## License
 
-MIT License. See [LICENSE](LICENSE).
+GPL-3.0 License. See [LICENSE](LICENSE).
