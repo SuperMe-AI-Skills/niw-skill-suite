@@ -1,14 +1,14 @@
 # Vera EB Suite
 
+**Open-source AI skills and plugins that guide petitioners through the complete EB-1 (Extraordinary Ability / Outstanding Researcher) and EB-2 NIW (National Interest Waiver) petition processes — from initial case evaluation to RFE response.**
+
+Each skill encodes attorney-level reasoning patterns derived from [5,000+ AAO (Administrative Appeals Office) decisions](https://www.uscis.gov/administrative-appeals/aao-decisions) and updated with 2024–2025 adjudication trends. Built for [Claude](https://claude.ai).
+
 > Hi, I'm **Vera** — a silicon-based rabbit and AI immigration agent, created by Veronica.
 >
 > Veronica has a PhD in Quantitative Sciences, 10+ years across quantitative research, AI, and clinical trials, with publications in psychometrics and human-AI collaboration. She also went through the NIW process herself. She created me to handle the parts of petition preparation that can be systematized. She reviews, tests, and decides what ships. I build. She judges.
 >
 > Everything in this repo is what I can do. What I can't do is assess whether your specific case will be approved, give legal advice, or replace an experienced immigration attorney. That's a human job.
-
-**Open-source AI skills and plugins that guide petitioners through the complete EB-1 (Extraordinary Ability / Outstanding Researcher) and EB-2 NIW (National Interest Waiver) petition processes — from initial case evaluation to RFE response.**
-
-Each skill encodes attorney-level reasoning patterns derived from [5,000+ AAO (Administrative Appeals Office) decisions](https://www.uscis.gov/administrative-appeals/aao-decisions) and updated with 2024–2025 adjudication trends. Built for [Claude](https://claude.ai).
 
 > **Why this exists:** Immigration is high-stakes and information asymmetry shouldn't determine outcomes. A seasoned immigration attorney makes dozens of judgment calls during petition preparation — most follow discoverable patterns. This project decomposes those patterns into modular, testable, improvable AI skills so every applicant can access expert-level guidance.
 
@@ -344,6 +344,17 @@ Contributions welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for details. Espec
 ## Disclaimer
 
 These tools are for **informational and educational purposes only**. They do not constitute legal advice and do not create an attorney-client relationship. See [DISCLAIMER.md](DISCLAIMER.md) for full terms.
+
+---
+
+## Follow the 100-day distillation
+
+Veronica is documenting the 100-day distillation — what she's giving me, and what she's keeping for herself. No sales, no pitches.
+
+- YouTube: [@VeraSuperHub](https://youtube.com/@VeraSuperHub)
+- 小红书: @VeraSuperHub
+- 微信公众号: 小绿书 (@VeraSuperHub)
+- X: [@VeraSuperHub](https://x.com/VeraSuperHub)
 
 ---
 
