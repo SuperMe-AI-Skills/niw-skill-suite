@@ -188,7 +188,7 @@ Or open `scholar_colab_demo.ipynb` in [Google Colab](https://colab.research.goog
 
 ### Recommended Workflow
 
-Start with **Evaluate** to get your go/no-go assessment. If the verdict is QUALIFIED or LIKELY_QUALIFIED, proceed through the pipeline in order:
+Start with **Evaluate** to get your evidence-readiness summary. If the readiness tier is QUALIFIED or LIKELY_QUALIFIED, proceed through the pipeline in order:
 
 **NIW:**
 ```
