@@ -85,13 +85,13 @@ Entrepreneur cases route through **vera-niw-entrepreneur** before entering the s
 
 | # | Skill | What It Does |
 |---|-------|-------------|
-| 1 | `vera-niw-evaluate` | Evaluates the petitioner's profile, selects the optimal pathway, identifies strengths and gaps, and produces a go/no-go recommendation with a confidence score |
+| 1 | `vera-niw-evaluate` | Reviews the petitioner's profile, maps available evidence to NIW requirements, identifies strengths, gaps, and risk areas, and produces a structured evidence-readiness summary |
 | 2 | `vera-niw-endeavor` | Drafts the national importance endeavor statement — the single paragraph USCIS reads first — using field-specific framing patterns |
 | 3 | `vera-niw-pillar` | Writes the three-pillar petition letter covering Prong 1 (substantial merit + national importance), Prong 2 (well-positioned), and Prong 3 (balance of equities). Run once per pillar |
 | 4 | `vera-niw-recommendation` | Generates recommendation letters with writer-specific voice calibration, ensuring each letter covers different evidence angles without redundancy |
-| 5 | `vera-niw-assemble` | Assembles the final petition package — petition letter, exhibit list, and supporting documents — as an attorney-quality .docx with cross-reference verification |
-| 6 | `vera-niw-pl-review` | Adversarial pre-filing review simulating a USCIS officer — 10 denial-pattern checks (A–J) mapped to real AAO denial grounds |
-| 7 | `vera-niw-rfe-response` | Generates point-by-point RFE responses that quote each USCIS finding verbatim and rebut with evidence, updated metrics, and new exhibits |
+| 5 | `vera-niw-assemble` | Assembles a draft petition-support package — petition-letter draft, exhibit list, and supporting-document structure — as a review-ready .docx with cross-reference checks |
+| 6 | `vera-niw-pl-review` | Adversarial pre-filing review using denial-pattern checks mapped to public AAO reasoning patterns and common evidence weaknesses |
+| 7 | `vera-niw-rfe-response` | Drafts a structured point-by-point RFE response framework that organizes each USCIS finding, relevant evidence, updated metrics, and potential new exhibits for human review |
 | 8 | `vera-niw-entrepreneur` | Evaluates and guides entrepreneur/founder NIW petitions using the USCIS Policy Manual's entrepreneur-specific framework (Jan 2025 update) |
 
 > **Got a weak research profile?** If `vera-niw-evaluate` or `vera-eb1-evaluate` flags insufficient publications or citation impact, I can help with that too. Check out [**ai-research-pipeline**](https://github.com/VeraSuperHub/ai-research-pipeline) and [**stat-research-pipeline**](https://github.com/VeraSuperHub/stat-research-pipeline) — my other skill suites that take a research question and dataset to a publication-ready manuscript, end-to-end.
@@ -100,7 +100,7 @@ Entrepreneur cases route through **vera-niw-entrepreneur** before entering the s
 
 | # | Skill | What It Does |
 |---|-------|-------------|
-| 1 | `vera-eb1-evaluate` | Evaluates EB-1A vs EB-1B eligibility, maps evidence to the 10 criteria, and produces a go/no-go recommendation |
+| 1 | `vera-eb1-evaluate` | Reviews evidence for EB-1A and EB-1B pathways, maps materials to relevant criteria, and produces an evidence-readiness and gap summary |
 | 2 | `vera-eb1-authorship` | Criterion 6: authorship of scholarly articles with venue rankings and citation impact analysis |
 | 3 | `vera-eb1-original-contributions` | Criterion 5: original contributions of major significance with before/after framing |
 | 4 | `vera-eb1-judging` | Criterion 4: evidence of judging the work of others (peer review, panels, editorial boards) |
@@ -108,9 +108,9 @@ Entrepreneur cases route through **vera-niw-entrepreneur** before entering the s
 | 6 | `vera-eb1-published-material` | Criterion 3: published material about the petitioner in professional or major media |
 | 7 | `vera-eb1-recommendation` | Generates EB-1 reference letters from a recommender's perspective |
 | 8 | `vera-eb1-final-merits` | Kazarian Step 2: final merits determination arguing sustained national/international acclaim |
-| 9 | `vera-eb1-assemble` | Assembles the complete EB-1 I-140 petition letter as a formatted .docx |
+| 9 | `vera-eb1-assemble` | Assembles a review-ready EB-1 petition-letter draft as a formatted .docx |
 | 10 | `vera-eb1-pl-review` | Adversarial pre-filing review using the Kazarian two-step analytical framework |
-| 11 | `vera-eb1-rfe-response` | Generates point-by-point EB-1 RFE responses with evidence and rebuttal patterns |
+| 11 | `vera-eb1-rfe-response` | Drafts a structured EB-1 RFE response framework with evidence mapping and potential rebuttal patterns for human review |
 
 **Total: 19 skills across both petition categories.**
 
@@ -262,7 +262,7 @@ Add reference materials (rubrics, schemas, examples)
 Validate against test cases (evals/)
 ```
 
-The key insight: an experienced NIW attorney doesn't use magic — they apply discoverable patterns built from hundreds of cases. Those patterns can be decomposed, encoded, validated, and improved by the community.
+The key insight: many parts of evidence preparation are pattern-based. Public decisions, policy guidance, and real petition workflows reveal recurring structures: what evidence tends to be persuasive, where gaps commonly appear, how narratives are organized, and how weaknesses are stress-tested before filing. These repeatable components can be decomposed, encoded, validated, and improved by the community — while case-specific legal judgment remains a human professional responsibility.
 
 ---
 
@@ -322,7 +322,7 @@ No. If you can use Claude, you can use these skills. Copy, paste, follow the pro
 No tool or attorney can guarantee approval. These skills help you identify weaknesses and build a stronger petition before filing.
 
 **How is this different from ChatGPT prompts for NIW?**
-Generic prompts produce generic output. Each skill here encodes hundreds of specific decision rules — failure pattern detection, field-specific framing, USCIS-language calibration — derived from systematic analysis of AAO decisions. The difference is the same as between asking a friend for advice and consulting a specialist.
+Generic prompts produce generic output. Each skill here encodes hundreds of specific decision rules — failure pattern detection, field-specific framing, USCIS-language calibration — derived from systematic analysis of AAO decisions. The difference is the same as between a generic prompt and a structured workflow: the skills include explicit rubrics, schemas, failure-pattern checks, and evidence-mapping steps that make the output easier to review, test, and improve.
 
 **Can I use this with GPT-4 or other models?**
 The skills are optimized for Claude but the instructions are model-agnostic text. They may work with other capable models, though output quality may vary.
